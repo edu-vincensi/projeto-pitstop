@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro_veículo</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(80, 2, 80);
+            padding: 30px;
+        }
+        .Cadastro_tela {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h6{
+            margin-bottom: 0 ;
+            margin-top: 0;
+
+        }
+
+
+
+        input {
+            width: 100%;
+            padding: 10px 5px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="Cadastro_tela">
+    <h2>Cadastro de Veículo</h2>
+        <input type="text" name="placa" placeholder="Placa do Veículo" required>
+        <input type="text" name="modelo" placeholder="Modelo" required>
+        <input type="text" name="cor" placeholder="Cor" required>
+        <input type="text" name="proprietario" placeholder="Nome do Proprietário" required>
+        <h6>Data e Hora de Entrada</h6>
+        <input type="datetime-local" name="data_entrada" placeholder="Data e Hora de Entrada" required>
+        <button type="submit">Cadastrar Veículo</button>
+    </form>
+</div>
+
+</body>
+</html>
