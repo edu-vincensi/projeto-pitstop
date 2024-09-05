@@ -3,7 +3,7 @@ body {
     background-color: rgb(80, 2, 80);;
     padding: 20px;
 }
-.table-container {
+.tabela_painel {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -11,15 +11,18 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+
 h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 table {
+
     width: 100%;
-    border-collapse: collapse;
+
 }
 table th, table td {
+    
     padding: 10px;
     border: 1px solid #ddd;
     text-align: left;
